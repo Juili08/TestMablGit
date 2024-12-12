@@ -31,13 +31,13 @@ jobs:
           MABL_API_KEY: ${{ secrets.MABL_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          application-id: D6uz-lhAGBYuTTc6Jj_w0Q-a
-          environment-id: I9tfo2dWd7WSigXcO91feA-e
+          application-id: bA7pKxy2ROhoNKoOUgmxLw-a
+          environment-id: afhRPUOL8YBA8Rv07y108w-e
           browser-types: |
             chrome
           plan-labels: |
-            canary
-            smoke-test
+            GIT-Plan
+            
           http-headers: |
             X-Test-Header-1: 1234
             X-Test-Header-2: 5678
